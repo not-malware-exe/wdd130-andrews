@@ -19,7 +19,12 @@ p {
 }
 
 a {
-    color: #fbfef9
+    color: #fbfef9;
+    transition: 0.5s;
+}
+
+a:hover {
+    transform: scale(1.1);
 }
 
 div {
@@ -37,7 +42,7 @@ div {
 }
 
 nav{
-    /* padd */
+    padding: 20px 0px;
 
     justify-self: center;
     align-self: center;
@@ -47,6 +52,14 @@ nav{
     justify-content: space-evenly;
 
     background-color: #23272a;
+}
+
+nav a {
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #17191a;
 }
 
 main{
