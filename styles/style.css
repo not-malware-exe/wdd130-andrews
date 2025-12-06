@@ -10,11 +10,11 @@ h1,h2,h3,h4,h5,h6,p,a {
     text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h3,h4,h5,h6 {
     color: #8dcecc;
 }
 
-p {
+h2,p {
     color: #726adc;
 }
 
@@ -60,23 +60,18 @@ nav a {
 
 nav a:hover {
     background-color: #17191a;
+    
 }
 
 main{
     margin: 10% 10%;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr; */
-}
-
-#main_bg_image{
-    width: 100%;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    padding: 10% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 main div{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    z-index: 1;
+    padding: 2% 2%;
+    background-color: #17191aaf;
 }
